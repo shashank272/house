@@ -38,6 +38,7 @@ public class Picture
             wall.moveHorizontal(-140);
             wall.moveVertical(20);
             wall.changeSize(120);
+            wall.changeColor("blue");
             wall.makeVisible();
             
             window.changeColor("black");
